@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Sites">
+        <item>Paris</item>
+        <item>Nantes</item>
+        <item>Toulouse</item>
+        <item>Nice</item>
+        <item>Lille</item>
+    </array>
+
+    <array name="Services">
+        <item>Production</item>
+        <item>Logistique</item>
+        <item>Marketing</item>
+        <item>Maintenance</item>
+        <item>Recherche &amp; Développement</item>
+    </array>
+</resources>

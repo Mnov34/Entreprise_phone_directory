@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CUBES4Java</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email address</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="mobile_phone_number">Mobile phone number</string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="register_text">Not yet registered? SignUp Now</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+</resources>
