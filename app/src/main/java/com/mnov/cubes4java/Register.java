@@ -7,6 +7,8 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.mnov.cubes4java.ui.main.MainActivity;
+
 public class Register extends AppCompatActivity {
 
     EditText editTextFirstName, editTextLastName,

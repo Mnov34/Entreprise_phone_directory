@@ -1,4 +1,4 @@
-package com.mnov.cubes4java.models;
+package com.mnov.cubes4java.data.models;
 
 public class User {
 

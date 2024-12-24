@@ -33,6 +33,17 @@ android {
 
 dependencies {
 
+    // Retrofit & OkHttp
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+
+    // RecyclerView
+    implementation(libs.recyclerview)
+
+    // LiveData & ViewModel
+    implementation(libs.lifecycle.livedata.ktx)
+    implementation(libs.lifecycle.viewmodel.ktx)
+
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)

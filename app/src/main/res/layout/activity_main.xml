@@ -1,36 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".ui.main.MainActivity">
 
-
-    <EditText
-        android:id="@+id/editEmailAddressLogin"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/email_address"
-        android:inputType="textEmailAddress" />
-
-    <EditText
-        android:id="@+id/editPasswordLogin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/password"
-        android:inputType="textPassword" />
-
-    <Button
-        android:id="@+id/buttonLoginLogin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/login" />
-
-    <Button
-        android:id="@+id/buttonRegisterLogin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/register" />
-
+        android:layout_height="match_parent"/>
 </LinearLayout>
